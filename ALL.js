@@ -94,7 +94,7 @@ function setup1(){
     slingshot = new SlingShot(bird.body,{x:350, y:100});
 }
 function draw1(){
-    background("blue")
+    background("yellow")
     if(play===1){
         p2.loop();
         play=2
